@@ -5,12 +5,10 @@ cv:
   location: Seoul, South Korea
   image: ""
   summary: >
-    Graduated in Physics and Artificial Intelligence with a primary research focus on practical and experimentally
-    realizable quantum algorithms in the NISQ era. Particularly interested in hardware-efficient quantum machine
-    learning, noise-resilient variational quantum circuits (VQCs), and train-on-classical / deploy-on-quantum
-    approaches that reduce quantum resource requirements. Currently focused on Pauli Propagation–based methods for
-    efficient quantum algorithm design and implementation, aiming to bridge theoretical quantum information science
-    with practical real-world applications.
+    Quantum algorithm researcher on the Quantum AI Team at Norma, working on practical and experimentally
+    realizable quantum algorithms for the NISQ era. Interested in hardware-efficient quantum machine learning,
+    Pauli-propagation methods, noise-resilient variational quantum circuits (VQCs), and quantum generative
+    models for drug discovery. B.S. in Physics & Artificial Intelligence from Sogang University.
 
   social_networks:
     - network: GitHub
@@ -25,16 +23,16 @@ cv:
       - institution: Sogang University
         location: Seoul, South Korea
         url: https://www.sogang.ac.kr/
-        area: Physics & Artificial Intelligence
+        area: Physics & Artificial Intelligence (Double Major)
         studyType: B.S.
         start_date: 2020-03
         end_date: 2026-02
-        score: "GPA 3.83/4.30 (96.2 percentile)"
+        score: "GPA 3.83/4.30 (96.2 percentile); Magna Cum Laude"
         highlights:
-          - "Honors: Magna Cum Laude"
-          - "Relevant Physics coursework: Quantum Physics, Modern Optics, Statistical Physics, Electromagnetics, Solid-State Physics, Experimental Physics, Classical Dynamics, Thermodynamics, Computational Physics II"
-          - "External coursework (Yonsei University, credit exchange): Quantum Information Science, Quantum Computing"
-          - "Relevant AI & CS coursework: Data Structures, Algorithms, Statistics, Linear Algebra, Introduction to Machine Learning, Introduction to Deep Learning, Computational Thinking (Python), Introduction to C"
+          - "Relevant Physics coursework: Quantum Physics, Modern Optics, Statistical Physics, Electromagnetics, Solid-State Physics, Experimental Physics, Classical Dynamics, Thermodynamics, Computational Physics."
+          - "Relevant AI & CS coursework: Machine Learning, Deep Learning, Data Structures & Algorithms, Linear Algebra, Statistics, Python, C."
+          - "External coursework (Yonsei University, credit exchange): Quantum Information Science, Quantum Computing."
+          - "Completed Aerospace Engineering coursework during military service via academic credit recognition."
 
     Experience:
       - company: Norma, Inc.
@@ -43,20 +41,20 @@ cv:
         start_date: 2025-07
         end_date: present
         highlights:
-          - Implemented quantum generative models (QGAN, IQP-QCBM) using Qiskit, PennyLane and NVIDIA CUDA-Q to study the expressive power and trainability of variational quantum circuits.
-          - Developed a Python toolkit for Pauli Propagation–based quantum algorithm implementation, enabling efficient simulation of operator evolution and implementation of diverse quantum algorithms including QAOA and VQE.
-          - Analyzed the noise resilience of variational quantum circuits (VQE, QAOA) under both simulation and real-hardware environments.
-          - Developed a neural-network-based quantum error mitigation (QEM) model to suppress noise effects in small-scale variational quantum circuits.
+          - "Co-developed Norma's in-house Pauli Propagation toolkit (\"Pado-Pauli\") for quantum algorithm simulation, publicly released on GitHub; achieved ~5,000x higher throughput than Julia PauliPropagation, NVIDIA cuPauliProp, and Qiskit via native batched processing, plus ~1.8x faster forward/back-propagation than cuPauliProp through GPU-level optimization."
+          - "Built quantum generative models (Quantum GAN, IQP-QCBM) in PyTorch and NVIDIA CUDA-Q for drug discovery; studied the expressivity and trainability of variational quantum circuits."
+          - "Designed a neural-network-based quantum error mitigation (QEM) model that predicts and counteracts real-hardware error characteristics, substantially reducing the total variation distance (TVD) between noisy and ideal output distributions."
+          - "Analyzed the noise resilience of VQCs (VQE, QAOA) under both simulation and real-hardware environments."
 
-      - company: Pohang University of Science and Technology (POSTECH), Department of Physics
-        position: Research Assistant (Supervisor — Prof. Yoonho Kim)
-        location: Pohang, South Korea
-        start_date: 2024-07
-        end_date: 2024-07
+      - company: National Information Society Agency (NIA) — KQIC Quantum Internship (4th Cohort)
+        position: Quantum Computing & AI Research Intern (placed at Norma, Inc.)
+        location: Seoul, South Korea
+        start_date: 2025-07
+        end_date: 2025-10
         highlights:
-          - Research intern at the Quantum Optics and Quantum Information Group.
-          - Designed and aligned a high-precision interferometer and conducted Bell-test measurements using a 1550 nm Kalmár laser.
-          - Performed SPDC (Spontaneous Parametric Down-Conversion) experiments for photon-pair generation and entanglement studies, and supported time-energy entanglement experiments.
+          - "Selected for a competitive, nationally administered quantum computing & AI internship; completed a 4-month research project at Norma evaluated by an industry and government panel."
+          - "Initiated the drug-discovery project: processed 1.4M augmented SMILES representations of KRAS G12D inhibitor candidates and built data pipelines feeding downstream quantum generative model training."
+          - "Performance led directly to conversion to a full-time research position at Norma."
 
       - company: Sogang University, Department of Physics
         position: Research Assistant (Supervisor — Prof. Minsoo Kim)
@@ -64,9 +62,18 @@ cv:
         start_date: 2024-09
         end_date: 2024-12
         highlights:
-          - Analyzed quantum Hall transport data in mesoscopic 2D systems.
-          - Studied valley-dependent transport and Dirac-cone related phenomena.
-          - Supported theoretical modeling linking experimental observables to band structure.
+          - "Analyzed quantum Hall transport data in mesoscopic 2D systems."
+          - "Studied valley-dependent transport and Dirac-cone related phenomena, and supported theoretical modeling linking experimental observables to band structure."
+
+      - company: Pohang University of Science and Technology (POSTECH), Department of Physics
+        position: Research Assistant (Supervisor — Prof. Yoonho Kim)
+        location: Pohang, South Korea
+        start_date: 2024-07
+        end_date: 2024-07
+        highlights:
+          - "Research intern at the Quantum Optics and Quantum Information Group."
+          - "Designed and aligned a high-precision interferometer and conducted Bell-test measurements using a 1550 nm Kalmar laser."
+          - "Performed SPDC (Spontaneous Parametric Down-Conversion) experiments for photon-pair generation, and supported time-energy entanglement experiments."
 
     Publications:
       - title: "SAFE ma-QAOA: Surrogate-Assisted and Fine-Tuning Enhanced Multi-Angle QAOA with Parameter Distillation"
@@ -79,13 +86,13 @@ cv:
         summary: Under review at the IEEE International Conference on Quantum Computing and Engineering (QCE / Quantum Week) 2026.
 
     Presentations:
-      - title: "Tensorized Pauli Propagation (poster)"
+      - title: "Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation (poster)"
         authors:
           - Hyunwoo Kim
         date: 2026-07
         awarder: "Conference on Quantum Information, Quantum Korea 2026, Seoul"
 
-      - title: "SAFE ma-QAOA (poster)"
+      - title: "SAFE ma-QAOA: Multi-Angle QAOA with Parameter Distillation (poster)"
         authors:
           - Hyunwoo Kim
         date: 2026-05
@@ -98,51 +105,82 @@ cv:
         awarder: "1st National Undergraduate Quantum Conference & Annual Meeting of the Quantum Information Society of Korea, Seoul"
 
     Selected Projects:
-      - name: Realizing Quantum Advantage in Drug Library Generation by Quantum Machine Learning
-        summary: National Research Foundation of Korea Quantum Computing Challenge Project (2024–2026).
+      - name: Quantum Generative Models for Drug Discovery
+        summary: "Norma, Inc. — part of the NRF Korea Quantum Computing Challenge (2024-2026)."
         highlights:
-          - Researched quantum generative models for molecular drug-library generation, integrating KRAS G12D-binding ligand candidates into the evaluation pipeline.
-        start_date: 2024
-        end_date: 2026
+          - "Leading quantum generative model development for KRAS G12D inhibitor discovery."
+          - "Curated 1.4M augmented SMILES; built pipelines encoding SMILES into (4, 16)-dimensional latent vectors via a Transformer."
+          - "Developed a Quantum GAN that generates latent vectors mimicking the encoder distribution to propose novel molecular candidates."
+        start_date: 2025-07
+        end_date: present
 
-      - name: Solving Combinatorial Optimization Problems with Quantum Algorithms
+      - name: Neural-Network Quantum State Tomography (NN-QST) via RBM
+        summary: "Sogang University."
         highlights:
-          - Implemented QAOA-based solutions for the NP-hard fractional Knapsack Problem on quantum computers.
-          - Formulated optimization problems as Ising Hamiltonians and applied heuristic optimization strategies.
+          - "Built a Restricted Boltzmann Machine (RBM) generative model to reconstruct quantum states from measurement bitstrings."
+          - "Managed the full ML pipeline from preprocessing through training to fidelity evaluation, recovering states from measurement statistics alone."
+        start_date: 2025-03
+        end_date: 2025-06
+
+      - name: Music Genre Prediction via Spotify Audio Features
+        summary: "Data Science Society Club, Sogang University."
+        highlights:
+          - "Applied Random Forest and ensemble methods to Spotify audio-feature data (Kaggle) for genre classification; worked on preprocessing, feature engineering, tuning, and evaluation."
+        start_date: 2025-04
+        end_date: 2025-06
+
+      - name: Solving Combinatorial Optimization with Quantum Algorithms
+        highlights:
+          - "Implemented QAOA-based solutions for the NP-hard fractional Knapsack Problem on quantum computers."
+          - "Formulated optimization problems as Ising Hamiltonians and applied heuristic optimization strategies."
 
       - name: Full-stack Remote Control System for Laboratory Instrumentation
         highlights:
-          - Developed a Python-based remote-control system for digital oscilloscopes to automate experimental data acquisition.
-          - Implemented end-to-end device control, data extraction, real-time visualization and analysis.
+          - "Developed a Python-based remote-control system for digital oscilloscopes to automate experimental data acquisition."
+          - "Implemented end-to-end device control, data extraction, real-time visualization and analysis."
 
     Honors and Awards:
-      - title: Full Tuition Scholarship
-        date: 2020
-        awarder: Sogang University
-        summary: Merit-based scholarship covering four years of full tuition (2020–2025), granted on academic performance and GPA criteria.
+      - title: KQIC Quantum Internship Excellence Prize (2nd Place)
+        date: 2025
+        awarder: Korea Quantum Industry Center / National Information Society Agency (NIA)
+        summary: Awarded for the top-ranking research project among 4th-cohort interns at the final presentation, evaluated by an industry and government panel.
+
+      - title: Catholic Foundation Outstanding Student Scholarship
+        date: 2025
+        awarder: Catholic Scholarship Foundation
+        summary: Stipend-based scholarship awarded on academic achievement and personal evaluation.
+
+      - title: Samsung DS Bootcamp Presentation Award
+        date: 2024
+        awarder: Samsung Device Solutions
+        summary: Ranked 1st in presentation quality and 2nd overall among 10 teams for a technical proposal on next-generation semiconductor applications.
 
       - title: Sogang Alumni Association Scholarship
         date: 2024
         awarder: Sogang University Alumni Association
         summary: Stipend-based merit scholarship awarded through academic excellence and personal-statement evaluation.
 
-      - title: Catholic Outstanding Student Scholarship
-        date: 2025
-        awarder: Catholic Scholarship
-        summary: Stipend-based scholarship awarded on academic achievement and personal evaluation.
-
-      - title: Accommodation Scholarship
+      - title: Lotte Foundation Residential Scholarship
         date: 2023
         awarder: Lotte Scholarship Foundation
-        summary: Two-year fully funded accommodation (08/2023–07/2025), awarded through academic and personal evaluation.
+        summary: Two-year fully funded accommodation (2023-2025), awarded through academic and personal evaluation.
+
+      - title: Sogang University Full Tuition Merit Scholarship
+        date: 2020
+        awarder: Sogang University
+        summary: Merit-based scholarship covering four consecutive years of full tuition (2020-2025).
 
     Skills:
-      - name: Quantum SDKs
-        keywords: "Qiskit, PennyLane, NVIDIA CUDA-Q"
       - name: Programming
-        keywords: "Python (NumPy, SciPy, PyTorch), C"
+        keywords: "Python, C (expanding into SQL)"
+      - name: Python Stack
+        keywords: "NumPy, SciPy, pandas, scikit-learn, PyTorch, matplotlib, seaborn"
+      - name: Quantum SDKs
+        keywords: "Qiskit, PennyLane, NVIDIA CUDA-Q, Quantinuum Nexus"
       - name: Experimental Physics
-        keywords: "Interferometry, SPDC, Superconductivity of graphene, Hall effect"
+        keywords: "Interferometry, SPDC, Hall effect, optical alignment"
+      - name: Tools
+        keywords: "Git, GitHub"
 
     Teaching:
       - company: Institute for Convergence Education, Sogang University
@@ -151,13 +189,16 @@ cv:
         start_date: 2024-03
         end_date: 2025-06
         highlights:
-          - Instructed undergraduate students on core Python programming principles and problem-solving techniques.
-          - Prepared course materials with the professor and TA team, addressed student inquiries, debugged code, and assisted with practical exercises.
+          - "Delivered instruction and hands-on problem-solving sessions for ~200 undergraduates across three semesters (1.5 years, ~70 students per semester); consistently received top-tier evaluations."
+          - "Designed and graded assignments, debugged student code in real time, and coordinated with the professor to improve course materials and assessments."
 
     Training:
       - name: The Basics of Quantum Computing and Information
         issuer: Seoul National University
         date: 2025
+      - name: Intensive English Immersion (advanced to CEFR C1)
+        issuer: EF International Language Campus, San Diego, USA
+        date: 2023
       - name: Advanced Machine Learning (built an MQL sales-conversion prediction model)
         issuer: LG AI Institute
         date: 2024
@@ -169,11 +210,11 @@ cv:
         start_date: 2021-02
         end_date: 2022-08
         highlights:
-          - Sniper for the Special Duty Team responsible for counterterrorism and commander security.
-          - Managed and calibrated precision optical equipment and weaponry for operational readiness.
+          - "Sniper for the Special Duty Team responsible for counterterrorism and commander security under strict protocols."
+          - "Managed and calibrated precision optical equipment, maintaining operational readiness."
 
     Languages:
       - name: Korean
         summary: Native speaker
       - name: English
-        summary: Professional working proficiency
+        summary: CEFR C1 (TOEIC 930)
