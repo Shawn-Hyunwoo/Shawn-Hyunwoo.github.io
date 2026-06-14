@@ -27,7 +27,7 @@ cv:
         studyType: B.S.
         start_date: 2020-03
         end_date: 2026-02
-        score: "GPA 3.83/4.30 (96.2 percentile); Magna Cum Laude"
+        score: "GPA 3.81/4.30 (95.8/100); Magna Cum Laude"
         highlights:
           - "Relevant Physics coursework: Quantum Physics, Modern Optics, Statistical Physics, Electromagnetics, Solid-State Physics, Experimental Physics, Classical Dynamics, Thermodynamics, Computational Physics."
           - "Relevant AI & CS coursework: Machine Learning, Deep Learning, Data Structures & Algorithms, Linear Algebra, Statistics, Python, C."
@@ -120,13 +120,6 @@ cv:
           - "Built a Restricted Boltzmann Machine (RBM) generative model to reconstruct quantum states from measurement bitstrings."
           - "Managed the full ML pipeline from preprocessing through training to fidelity evaluation, recovering states from measurement statistics alone."
         start_date: 2025-03
-        end_date: 2025-06
-
-      - name: Music Genre Prediction via Spotify Audio Features
-        summary: "Data Science Society Club, Sogang University."
-        highlights:
-          - "Applied Random Forest and ensemble methods to Spotify audio-feature data (Kaggle) for genre classification; worked on preprocessing, feature engineering, tuning, and evaluation."
-        start_date: 2025-04
         end_date: 2025-06
 
       - name: Solving Combinatorial Optimization with Quantum Algorithms
