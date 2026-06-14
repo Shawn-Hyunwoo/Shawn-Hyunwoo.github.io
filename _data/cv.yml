@@ -72,10 +72,11 @@ cv:
       - title: "SAFE ma-QAOA: Surrogate-Assisted and Fine-Tuning Enhanced Multi-Angle QAOA with Parameter Distillation"
         authors:
           - Hyunwoo Kim
+          - Youngseok Lee
         publisher: "Preprint (arXiv:2605.23377)"
         releaseDate: 2026
         url: https://arxiv.org/abs/2605.23377
-        summary: Submitted to the IEEE International Conference on Quantum Computing and Engineering (QCE) 2026.
+        summary: Under review at the IEEE International Conference on Quantum Computing and Engineering (QCE / Quantum Week) 2026.
 
     Presentations:
       - title: "Tensorized Pauli Propagation (poster)"
