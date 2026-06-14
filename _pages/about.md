@@ -31,4 +31,4 @@ I am **Shawn Hyunwoo Kim (김현우)**, a quantum algorithm researcher on the **
 
 I studied **Physics** (primary major) and **Artificial Intelligence** (double major) at **Sogang University**. My broader interest is in bridging machine learning and quantum computing — designing algorithms that are both theoretically grounded and practically runnable on near-term quantum hardware.
 
-I am currently preparing for graduate study in quantum computing / quantum machine learning. You can find my work on [GitHub](https://github.com/shawn-hyunwoo-kim) and [Google Scholar](https://scholar.google.com/citations?user=AtdnRUEAAAAJ&hl=en), and reach me by email at kimhw7537@gmail.com.
+I am currently preparing for graduate study in quantum computing / quantum machine learning. You can find my work on [GitHub](https://github.com/Shawn-Hyunwoo) and [Google Scholar](https://scholar.google.com/citations?user=AtdnRUEAAAAJ&hl=en), and reach me by email at kimhw7537@gmail.com.

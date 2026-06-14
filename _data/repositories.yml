@@ -1,7 +1,9 @@
 github_users:
-  - shawn-hyunwoo-kim
+  - Shawn-Hyunwoo
 
 repo_description_lines_max: 2
 
 github_repos:
-  - shawn-hyunwoo-kim/shawn-hyunwoo-kim.github.io
+  - Shawn-Hyunwoo/Shawn-Hyunwoo.github.io
+  - Shawn-Hyunwoo/PauliPropagation-cuQuantum-python-easy-module
+  - Shawn-Hyunwoo/Quantum-Computer-QAOA-Project
