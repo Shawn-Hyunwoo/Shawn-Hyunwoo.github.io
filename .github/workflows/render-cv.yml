@@ -1,14 +1,8 @@
 name: Render a CV
+# Auto-run on cv.yml changes is disabled: this site ships a hand-made CV PDF at
+# assets/pdf/cv.pdf. Run this workflow manually (Actions tab -> "Run workflow")
+# if you ever want to auto-generate the PDF from _data/cv.yml via RenderCV.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
   workflow_call:
   workflow_dispatch:
 permissions:
