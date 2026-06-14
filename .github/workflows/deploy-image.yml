@@ -1,18 +1,9 @@
 name: Docker Image CI
 
 on:
-  push:
-    branches:
-      - master
-      - main
-    paths:
-      - ".github/workflows/deploy-image.yml"
-      - "bin/entry_point.sh"
-      - "Dockerfile"
-      - "Gemfile"
-      - "Gemfile.lock"
-      - "package.json"
-      - "package-lock.json"
+  # Auto-run disabled for this personal site; only "Deploy site" runs automatically.
+  # Run manually from the Actions tab ("Run workflow") if you ever need this.
+  workflow_dispatch:
 
 jobs:
   build:

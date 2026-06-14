@@ -1,14 +1,9 @@
 name: Prettier code formatter
 
 on:
-  pull_request:
-    branches:
-      - master
-      - main
-  push:
-    branches:
-      - master
-      - main
+  # Auto-run disabled for this personal site; only "Deploy site" runs automatically.
+  # Run manually from the Actions tab ("Run workflow") if you ever need this.
+  workflow_dispatch:
 
 jobs:
   check:

@@ -1,10 +1,8 @@
 name: Update Google Scholar Citations
 
 on:
-  schedule:
-    - cron: "0 0 * * 1" # Monday
-    - cron: "0 0 * * 3" # Wednesday
-    - cron: "0 0 * * 5" # Friday
+  # Auto-run disabled for this personal site; only "Deploy site" runs automatically.
+  # Run manually from the Actions tab ("Run workflow") if you ever need this.
   workflow_dispatch:
 
 jobs:

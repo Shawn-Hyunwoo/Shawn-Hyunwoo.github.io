@@ -2,16 +2,8 @@ name: Docker Slim
 
 #Only trigger, when the build workflow succeeded
 on:
-  push:
-    branches:
-      - master
-      - main
-    paths:
-      - ".github/workflows/docker-slim.yml"
-  workflow_run:
-    workflows: ["Docker Image CI"]
-    types:
-      - completed
+  # Auto-run disabled for this personal site; only "Deploy site" runs automatically.
+  # Run manually from the Actions tab ("Run workflow") if you ever need this.
   workflow_dispatch:
 
 jobs:

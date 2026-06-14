@@ -1,38 +1,9 @@
 name: Upgrade contract checks
 
 on:
-  push:
-    branches:
-      - master
-      - main
-      - v1.0-dev
-    paths:
-      - "_config.yml"
-      - "_data/**"
-      - "_pages/**"
-      - "_posts/**"
-      - "_projects/**"
-      - "assets/**"
-      - "Gemfile"
-      - "Gemfile.lock"
-      - "test/integration_upgrade_cli.sh"
-      - ".github/workflows/upgrade-check.yml"
-  pull_request:
-    branches:
-      - master
-      - main
-      - v1.0-dev
-    paths:
-      - "_config.yml"
-      - "_data/**"
-      - "_pages/**"
-      - "_posts/**"
-      - "_projects/**"
-      - "assets/**"
-      - "Gemfile"
-      - "Gemfile.lock"
-      - "test/integration_upgrade_cli.sh"
-      - ".github/workflows/upgrade-check.yml"
+  # Auto-run disabled for this personal site; only "Deploy site" runs automatically.
+  # Run manually from the Actions tab ("Run workflow") if you ever need this.
+  workflow_dispatch:
 
 jobs:
   upgrade-check:

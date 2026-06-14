@@ -2,12 +2,8 @@ name: Update TOCs
 # This workflow automatically updates the Table of Contents (TOC) in markdown files
 
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "*.md"
+  # Auto-run disabled for this personal site; only "Deploy site" runs automatically.
+  # Run manually from the Actions tab ("Run workflow") if you ever need this.
   workflow_dispatch:
 
 permissions:

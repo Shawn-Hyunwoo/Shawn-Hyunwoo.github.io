@@ -1,9 +1,9 @@
 name: Check for broken links on site
 
 on:
-  workflow_run:
-    workflows: [Deploy site]
-    types: [completed]
+  # Auto-run disabled for this personal site; only "Deploy site" runs automatically.
+  # Run manually from the Actions tab ("Run workflow") if you ever need this.
+  workflow_dispatch:
 
 jobs:
   check-links-on-site:
