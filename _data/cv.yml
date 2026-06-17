@@ -41,7 +41,7 @@ cv:
         start_date: 2025-07
         end_date: present
         highlights:
-          - "Co-developed Norma's in-house Pauli Propagation toolkit (\"Pado-Pauli\") for quantum algorithm simulation, publicly released on GitHub; achieved ~5,000x higher throughput than Julia PauliPropagation, NVIDIA cuPauliProp, and Qiskit via native batched processing, plus ~1.8x faster forward/back-propagation than cuPauliProp through GPU-level optimization."
+          - "Co-developed Norma's in-house Pauli Propagation toolkit (\"Pado-Pauli\") for quantum algorithm simulation, a GPU-accelerated, differentiable surrogate publicly released on GitHub; the GPU path runs ~35-49x faster than the CPU path (coefficient-truncation error <1e-4), with native batched processing for quantum-native ML and head-to-head benchmarks against existing Pauli-propagation implementations reported in a paper in preparation."
           - "Built quantum generative models (Quantum GAN, IQP-QCBM) in PyTorch and NVIDIA CUDA-Q for drug discovery; studied the expressivity and trainability of variational quantum circuits."
           - "Designed a neural-network-based quantum error mitigation (QEM) model that predicts and counteracts real-hardware error characteristics, substantially reducing the total variation distance (TVD) between noisy and ideal output distributions."
           - "Analyzed the noise resilience of VQCs (VQE, QAOA) under both simulation and real-hardware environments."
@@ -84,6 +84,14 @@ cv:
         releaseDate: 2026
         url: https://arxiv.org/abs/2605.23377
         summary: Under review at the IEEE International Conference on Quantum Computing and Engineering (QCE / Quantum Week) 2026.
+
+      - title: "Trainable Mixtures of IQP Circuits for Quantum Generative Modeling"
+        authors:
+          - Youngseok Lee
+          - Hyunwoo Kim
+        publisher: "Manuscript in preparation"
+        releaseDate: 2026
+        summary: Co-authored work on ancilla-augmented, trainable mixtures of Instantaneous Quantum Polynomial-time (IQP) circuits for generative modeling, benchmarked from 16 to 784 qubits against classical baselines.
 
     Presentations:
       - title: "Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation (poster)"
