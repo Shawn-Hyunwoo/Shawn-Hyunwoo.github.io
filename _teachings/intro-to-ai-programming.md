@@ -27,5 +27,3 @@ Convergence Education, Sogang University (March 2024 – June 2025).
 - Instructed undergraduate students on core Python programming principles and problem-solving techniques.
 - Prepared course materials with the professor and TA team.
 - Addressed student inquiries, debugged code, and assisted with practical exercises.
-
-> This is a placeholder course page based on a real TA role. Edit the schedule and content as needed.

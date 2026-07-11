@@ -27,12 +27,11 @@ cv:
         studyType: B.S.
         start_date: 2020-03
         end_date: 2026-02
-        score: "GPA 3.81/4.30 (95.8/100); Magna Cum Laude"
+        score: "GPA 3.81/4.30 (95.8 percentile, cohort average 91.4); Magna Cum Laude"
         highlights:
-          - "Relevant Physics coursework: Quantum Physics, Modern Optics, Statistical Physics, Electromagnetics, Solid-State Physics, Experimental Physics, Classical Dynamics, Thermodynamics, Computational Physics."
+          - "Relevant Physics coursework: Quantum Physics, Modern Optics, Statistical Physics, Electromagnetics, Solid-State Physics, Experimental Physics, Classical Dynamics, Thermodynamics, Computational Physics II."
           - "Relevant AI & CS coursework: Machine Learning, Deep Learning, Data Structures & Algorithms, Linear Algebra, Statistics, Python, C."
           - "External coursework (Yonsei University, credit exchange): Quantum Information Science, Quantum Computing."
-          - "Completed Aerospace Engineering coursework during military service via academic credit recognition."
 
     Experience:
       - company: Norma, Inc.
@@ -83,7 +82,7 @@ cv:
         publisher: "Preprint (arXiv:2605.23377)"
         releaseDate: 2026
         url: https://arxiv.org/abs/2605.23377
-        summary: Under review at the IEEE International Conference on Quantum Computing and Engineering (QCE / Quantum Week) 2026.
+        summary: Accepted to the Technical Papers Track (Quantum Algorithms) at the IEEE International Conference on Quantum Computing and Engineering (QCE / Quantum Week) 2026, Toronto.
 
       - title: "Trainable Mixtures of IQP Circuits for Quantum Generative Modeling"
         authors:
@@ -99,6 +98,12 @@ cv:
           - Hyunwoo Kim
         date: 2026-07
         awarder: "Conference on Quantum Information, Quantum Korea 2026, Seoul"
+
+      - title: "SAFE ma-QAOA: Multi-Angle QAOA with Parameter Distillation (invited talk)"
+        authors:
+          - Hyunwoo Kim
+        date: 2026-07
+        awarder: "Waterloo Quantum Club (WQC), University of Waterloo (online)"
 
       - title: "SAFE ma-QAOA: Multi-Angle QAOA with Parameter Distillation (poster)"
         authors:
@@ -183,7 +188,24 @@ cv:
       - name: Tools
         keywords: "Git, GitHub"
 
-    Teaching:
+    Teaching and Outreach:
+      - company: Norma, Inc. — Conference Outreach
+        position: Technical Demo & Presentation
+        location: Tokyo, Japan / Seoul, South Korea
+        start_date: 2026-06
+        end_date: 2026-07
+        highlights:
+          - "Q2B Tokyo 2026 (Jun 4-5): operated Norma's technical demo booth and presented the Pado-Pauli use case to industry researchers and visitors."
+          - "Quantum Korea 2026 (Jul 1-3, Seoul): ran booth operations and delivered technical presentations of Norma's quantum computing solutions to attendees."
+
+      - company: 1st Quantum AI Competition (Norma, Inc. & AI Factory)
+        position: Technical Mentor
+        location: Jeonju, South Korea
+        start_date: 2025-08
+        end_date: 2025-08
+        highlights:
+          - "Mentored participating teams on quantum algorithm design and quantum machine learning implementation (55 teams entered; 10 finalists)."
+
       - company: Institute for Convergence Education, Sogang University
         position: Teaching Assistant — Introduction to Artificial Intelligence Programming (Python)
         location: Seoul, South Korea
