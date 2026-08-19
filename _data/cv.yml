@@ -84,15 +84,28 @@ cv:
         url: https://arxiv.org/abs/2605.23377
         summary: Accepted to the Technical Papers Track (Quantum Algorithms) at the IEEE International Conference on Quantum Computing and Engineering (QCE / Quantum Week) 2026, Toronto.
 
-      - title: "Trainable Mixtures of IQP Circuits for Quantum Generative Modeling"
+      - title: "Trainability and Mode Separation of Mixed IQP-QCBMs"
         authors:
           - Youngseok Lee
           - Hyunwoo Kim
-        publisher: "Manuscript in preparation"
+        publisher: "Preprint (arXiv:2607.27883)"
         releaseDate: 2026
-        summary: Co-authored work on ancilla-augmented, trainable mixtures of Instantaneous Quantum Polynomial-time (IQP) circuits for generative modeling, benchmarked from 16 to 784 qubits against classical baselines.
+        url: https://arxiv.org/abs/2607.27883
+        summary: Accepted to the Technical Papers track at the ML4QT Symposium (Machine Learning to Advance Quantum Technologies) 2026, Waterloo. Ancilla-augmented, trainable mixtures of Instantaneous Quantum Polynomial-time (IQP) circuits for quantum generative modeling, benchmarked from 16 to 784 qubits against classical baselines.
 
     Presentations:
+      - title: "Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation (poster)"
+        authors:
+          - Hyunwoo Kim
+        date: 2026-09
+        awarder: "ML4QT Symposium (Machine Learning to Advance Quantum Technologies) 2026, Waterloo"
+
+      - title: "Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation (poster)"
+        authors:
+          - Hyunwoo Kim
+        date: 2026-09
+        awarder: "IEEE International Conference on Quantum Computing and Engineering (QCE) 2026, Poster Track, Toronto"
+
       - title: "Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation (poster)"
         authors:
           - Hyunwoo Kim

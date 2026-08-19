@@ -10,7 +10,7 @@ related_publications: false
 
 **Pado-Pauli** is a GPU-accelerated, autodiff-enabled **Pauli Propagation surrogate** that I co-developed on the Quantum AI Team at [Norma](https://norma.co.kr/) and that we released publicly under AGPLv3.
 
-🔗 **Code:** [github.com/Norma-Q/Pauli-Propagation---GPU-acceleration](https://github.com/Norma-Q/Pauli-Propagation---GPU-acceleration)
+🔗 **Code:** [github.com/Norma-Q/PADO-Pauli](https://github.com/Norma-Q/PADO-Pauli)
 
 It propagates observables backward through a circuit in the Heisenberg picture, compiling a circuit **once** into a reusable sparse-tensor surrogate that can then be evaluated many times — exactly the workload shape of **VQE** and **QAOA**. The engine pairs a compiled **C++ backend (a PyTorch C++ extension)** with **native PyTorch autograd**, so gradients flow straight through expectation-value evaluation, with GPU work running on PyTorch CUDA tensors.
 
