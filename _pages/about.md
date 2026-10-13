@@ -22,7 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am **Shawn Hyunwoo Kim (김현우)**, a quantum algorithm researcher on the **Quantum AI Team at [Norma](https://norma.co.kr/)**, where I develop **quantum machine learning (QML)** algorithms. My current work centers on **Pauli propagation** (I co-developed Norma's GPU-accelerated *Pado-Pauli* toolkit), **quantum generative models** for drug discovery, and **noise-resilient variational quantum circuits**.
+I am **Hyunwoo Shawn Kim (김현우)**, a quantum algorithm researcher on the **Quantum AI Team at [Norma](https://norma.co.kr/)**, where I develop **quantum machine learning (QML)** algorithms. My current work centers on **Pauli propagation** (I co-developed Norma's GPU-accelerated *Pado-Pauli* toolkit), **quantum generative models** for drug discovery, and **noise-resilient variational quantum circuits**.
 
 I studied **Physics** and **Artificial Intelligence** (double major) at **Sogang University**, with earlier hands-on research in experimental quantum optics (POSTECH) and 2D quantum materials. My broader interest is in bridging machine learning and quantum computing — designing algorithms that are both theoretically grounded and practically runnable on near-term quantum hardware.
 

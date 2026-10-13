@@ -3,18 +3,18 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Shawn
-middle_name: Hyunwoo
+first_name: Hyunwoo
+middle_name: Shawn
 last_name: Kim
 contact_note: >
   The best way to reach me is by email: kimhw7537@gmail.com (personal) or hw_kim@norma.co.kr (work).
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal academic website of Shawn Hyunwoo Kim (김현우), a quantum algorithm researcher on the Quantum AI team at Norma, working on quantum machine learning.
+  Personal academic website of Hyunwoo Shawn Kim (김현우), a quantum algorithm researcher on the Quantum AI team at Norma, working on quantum machine learning.
 footer_text: >
-  &copy; Shawn Hyunwoo Kim.
+  &copy; Hyunwoo Shawn Kim.
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Shawn Hyunwoo Kim, 김현우, quantum machine learning, QML, Pauli propagation, quantum generative models, quantum computing, Norma # add your own keywords or leave empty
+keywords: Hyunwoo Shawn Kim, 김현우, quantum machine learning, QML, Pauli propagation, quantum generative models, quantum computing, Norma # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -301,7 +301,7 @@ jekyll-archives:
 
 scholar:
   last_name: [Kim]
-  first_name: [Hyunwoo, Shawn, Shawn Hyunwoo, H.]
+  first_name: [Hyunwoo, Shawn, Hyunwoo Shawn, H.]
 
   style: apa
   locale: en

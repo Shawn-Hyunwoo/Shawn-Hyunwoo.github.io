@@ -1,5 +1,5 @@
 cv:
-  name: Shawn Hyunwoo Kim
+  name: Hyunwoo Shawn Kim
   label: Quantum Algorithm Researcher
   email: kimhw7537@gmail.com
   location: Seoul, South Korea
@@ -206,4 +206,4 @@ cv:
       - name: Korean
         summary: Native speaker
       - name: English
-        summary: CEFR C1 (TOEIC 930)
+        summary: CEFR C1, TOEIC 930

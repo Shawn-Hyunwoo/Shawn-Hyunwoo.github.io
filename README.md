@@ -1,4 +1,4 @@
-# Shawn Hyunwoo Kim (김현우)
+# Hyunwoo Shawn Kim (김현우)
 
 Source of my personal academic website: **[shawn-hyunwoo.github.io](https://shawn-hyunwoo.github.io)**
 

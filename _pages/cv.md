@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 cv_pdf: /assets/pdf/cv.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
-description: Curriculum vitae of Shawn Hyunwoo Kim. A PDF version is available via the download button.
+description: Curriculum vitae of Hyunwoo Shawn Kim. A PDF version is available via the download button.
 toc:
   sidebar: left
 ---
