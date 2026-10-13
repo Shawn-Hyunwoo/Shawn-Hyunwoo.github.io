@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selected research and engineering projects.
 nav: true
 nav_order: 3
-display_categories: [work, research]
+display_categories: [work]
 horizontal: false
 ---
 

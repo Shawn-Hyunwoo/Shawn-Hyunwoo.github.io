@@ -93,70 +93,41 @@ cv:
         url: https://arxiv.org/abs/2607.27883
         summary: Accepted to the Technical Papers track at the ML4QT Symposium (Machine Learning to Advance Quantum Technologies) 2026, Waterloo. Ancilla-augmented, trainable mixtures of Instantaneous Quantum Polynomial-time (IQP) circuits for quantum generative modeling, benchmarked from 16 to 784 qubits against classical baselines.
 
+    # The web CV renders only section titles it knows (Education, Experience, Publications, Projects, ...).
+    # Custom sections like the ones below must use `bullet:` entries, otherwise they render empty.
     Presentations:
-      - title: "Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation (poster)"
-        authors:
-          - Hyunwoo Kim
-        date: 2026-09
-        awarder: "ML4QT Symposium (Machine Learning to Advance Quantum Technologies) 2026, Waterloo"
-
-      - title: "Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation (poster)"
-        authors:
-          - Hyunwoo Kim
-        date: 2026-09
-        awarder: "IEEE International Conference on Quantum Computing and Engineering (QCE) 2026, Poster Track, Toronto"
-
-      - title: "Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation (poster)"
-        authors:
-          - Hyunwoo Kim
-        date: 2026-07
-        awarder: "Conference on Quantum Information, Quantum Korea 2026, Seoul"
-
-      - title: "SAFE ma-QAOA: Multi-Angle QAOA with Parameter Distillation (invited talk)"
-        authors:
-          - Hyunwoo Kim
-        date: 2026-07
-        awarder: "Waterloo Quantum Club (WQC), University of Waterloo (online)"
-
-      - title: "SAFE ma-QAOA: Multi-Angle QAOA with Parameter Distillation (poster)"
-        authors:
-          - Hyunwoo Kim
-        date: 2026-05
-        awarder: "Quantum Future Korea 2026 (2nd National Undergraduate Quantum Conference), Seoul"
-
-      - title: "Two Approaches of Potential Quantum Advantage with Quantum Generative Models in Drug Discovery (poster)"
-        authors:
-          - Hyunwoo Kim
-        date: 2026-02
-        awarder: "1st National Undergraduate Quantum Conference & Annual Meeting of the Quantum Information Society of Korea, Seoul"
+      - bullet: "**Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation** (poster), ML4QT Symposium (Machine Learning to Advance Quantum Technologies) 2026, Waterloo, Sep 2026"
+      - bullet: "**Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation** (poster), IEEE International Conference on Quantum Computing and Engineering (QCE) 2026, Poster Track, Toronto, Sep 2026"
+      - bullet: "**Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation** (poster), Conference on Quantum Information, Quantum Korea 2026, Seoul, Jul 2026"
+      - bullet: "**SAFE ma-QAOA: Multi-Angle QAOA with Parameter Distillation** (invited talk), Waterloo Quantum Club (WQC), University of Waterloo (online), Jul 2026"
+      - bullet: "**SAFE ma-QAOA: Multi-Angle QAOA with Parameter Distillation** (poster), Quantum Future Korea 2026 (2nd National Undergraduate Quantum Conference), Seoul, May 2026"
+      - bullet: "**Two Approaches of Potential Quantum Advantage with Quantum Generative Models in Drug Discovery** (poster), 1st National Undergraduate Quantum Conference & Annual Meeting of the Quantum Information Society of Korea, Seoul, Feb 2026"
 
     Selected Projects:
-      - name: Quantum Generative Models for Drug Discovery
-        summary: "Norma, Inc. — part of the NRF Korea Quantum Computing Challenge (2024-2026)."
-        highlights:
-          - "Leading quantum generative model development for KRAS G12D inhibitor discovery."
-          - "Curated 1.4M augmented SMILES; built pipelines encoding SMILES into (4, 16)-dimensional latent vectors via a Transformer."
-          - "Developed a Quantum GAN that generates latent vectors mimicking the encoder distribution to propose novel molecular candidates."
-        start_date: 2025-07
-        end_date: present
+      - bullet: |-
+          **Quantum Generative Models for Drug Discovery** (Jul 2025 – present). Norma, Inc. — part of the NRF Korea Quantum Computing Challenge (2024-2026).
 
-      - name: Neural-Network Quantum State Tomography (NN-QST) via RBM
-        summary: "Sogang University."
-        highlights:
-          - "Built a Restricted Boltzmann Machine (RBM) generative model to reconstruct quantum states from measurement bitstrings."
-          - "Managed the full ML pipeline from preprocessing through training to fidelity evaluation, recovering states from measurement statistics alone."
-        start_date: 2025-03
-        end_date: 2025-06
+          - Leading quantum generative model development for KRAS G12D inhibitor discovery.
+          - Curated 1.4M augmented SMILES; built pipelines encoding SMILES into (4, 16)-dimensional latent vectors via a Transformer.
+          - Developed a Quantum GAN that generates latent vectors mimicking the encoder distribution to propose novel molecular candidates.
 
-      - name: Solving Combinatorial Optimization with Quantum Algorithms
-        highlights:
-          - "Implemented QAOA-based solutions for the NP-hard fractional Knapsack Problem on quantum computers."
-          - "Formulated optimization problems as Ising Hamiltonians and applied heuristic optimization strategies."
+      - bullet: |-
+          **Neural-Network Quantum State Tomography (NN-QST) via RBM** (Mar 2025 – Jun 2025). Sogang University.
 
-      - name: Full-stack Remote Control System for Laboratory Instrumentation
-        highlights:
-          - "Developed a Python-based remote-control system for digital oscilloscopes to automate experimental data acquisition."
-          - "Implemented end-to-end device control, data extraction, real-time visualization and analysis."
+          - Built a Restricted Boltzmann Machine (RBM) generative model to reconstruct quantum states from measurement bitstrings.
+          - Managed the full ML pipeline from preprocessing through training to fidelity evaluation, recovering states from measurement statistics alone.
+
+      - bullet: |-
+          **Solving Combinatorial Optimization with Quantum Algorithms**
+
+          - Implemented QAOA-based solutions for the NP-hard fractional Knapsack Problem on quantum computers.
+          - Formulated optimization problems as Ising Hamiltonians and applied heuristic optimization strategies.
+
+      - bullet: |-
+          **Full-stack Remote Control System for Laboratory Instrumentation**
+
+          - Developed a Python-based remote-control system for digital oscilloscopes to automate experimental data acquisition.
+          - Implemented end-to-end device control, data extraction, real-time visualization and analysis.
 
     Honors and Awards:
       - title: KQIC Quantum Internship Excellence Prize (2nd Place)
@@ -202,52 +173,34 @@ cv:
         keywords: "Git, GitHub"
 
     Teaching and Outreach:
-      - company: Norma, Inc. — Conference Outreach
-        position: Technical Demo & Presentation
-        location: Tokyo, Japan / Seoul, South Korea
-        start_date: 2026-06
-        end_date: 2026-07
-        highlights:
-          - "Q2B Tokyo 2026 (Jun 4-5): operated Norma's technical demo booth and presented the Pado-Pauli use case to industry researchers and visitors."
-          - "Quantum Korea 2026 (Jul 1-3, Seoul): ran booth operations and delivered technical presentations of Norma's quantum computing solutions to attendees."
+      - bullet: |-
+          **Technical Demo & Presentation**, Norma, Inc. — Conference Outreach, Tokyo, Japan / Seoul, South Korea (Jun 2026 – Jul 2026)
 
-      - company: 1st Quantum AI Competition (Norma, Inc. & AI Factory)
-        position: Technical Mentor
-        location: Jeonju, South Korea
-        start_date: 2025-08
-        end_date: 2025-08
-        highlights:
-          - "Mentored participating teams on quantum algorithm design and quantum machine learning implementation (55 teams entered; 10 finalists)."
+          - Q2B Tokyo 2026 (Jun 4-5): operated Norma's technical demo booth and presented the Pado-Pauli use case to industry researchers and visitors.
+          - Quantum Korea 2026 (Jul 1-3, Seoul): ran booth operations and delivered technical presentations of Norma's quantum computing solutions to attendees.
 
-      - company: Institute for Convergence Education, Sogang University
-        position: Teaching Assistant — Introduction to Artificial Intelligence Programming (Python)
-        location: Seoul, South Korea
-        start_date: 2024-03
-        end_date: 2025-06
-        highlights:
-          - "Delivered instruction and hands-on problem-solving sessions for ~200 undergraduates across three semesters (1.5 years, ~70 students per semester); consistently received top-tier evaluations."
-          - "Designed and graded assignments, debugged student code in real time, and coordinated with the professor to improve course materials and assessments."
+      - bullet: |-
+          **Technical Mentor**, 1st Quantum AI Competition (Norma, Inc. & AI Factory), Jeonju, South Korea (Aug 2025)
+
+          - Mentored participating teams on quantum algorithm design and quantum machine learning implementation (55 teams entered; 10 finalists).
+
+      - bullet: |-
+          **Teaching Assistant — Introduction to Artificial Intelligence Programming (Python)**, Institute for Convergence Education, Sogang University, Seoul, South Korea (Mar 2024 – Jun 2025)
+
+          - Delivered instruction and hands-on problem-solving sessions for ~200 undergraduates across three semesters (1.5 years, ~70 students per semester); consistently received top-tier evaluations.
+          - Designed and graded assignments, debugged student code in real time, and coordinated with the professor to improve course materials and assessments.
 
     Training:
-      - name: The Basics of Quantum Computing and Information
-        issuer: Seoul National University
-        date: 2025
-      - name: Intensive English Immersion (advanced to CEFR C1)
-        issuer: EF International Language Campus, San Diego, USA
-        date: 2023
-      - name: Advanced Machine Learning (built an MQL sales-conversion prediction model)
-        issuer: LG AI Institute
-        date: 2024
+      - bullet: "**The Basics of Quantum Computing and Information**, Seoul National University (2025)"
+      - bullet: "**Intensive English Immersion (advanced to CEFR C1)**, EF International Language Campus, San Diego, USA (2023)"
+      - bullet: "**Advanced Machine Learning (built an MQL sales-conversion prediction model)**, LG AI Institute (2024)"
 
     Additional Experience:
-      - company: Republic of Korea Army, Military Police
-        position: SDT (Special Duty Team) Sniper
-        location: Gangwon-do, South Korea
-        start_date: 2021-02
-        end_date: 2022-08
-        highlights:
-          - "Sniper for the Special Duty Team responsible for counterterrorism and commander security under strict protocols."
-          - "Managed and calibrated precision optical equipment, maintaining operational readiness."
+      - bullet: |-
+          **SDT (Special Duty Team) Sniper**, Republic of Korea Army, Military Police, Gangwon-do, South Korea (Feb 2021 – Aug 2022)
+
+          - Sniper for the Special Duty Team responsible for counterterrorism and commander security under strict protocols.
+          - Managed and calibrated precision optical equipment, maintaining operational readiness.
 
     Languages:
       - name: Korean

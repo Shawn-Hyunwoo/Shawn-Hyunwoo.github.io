@@ -6,17 +6,7 @@ instructor: Sogang University
 year: 2024
 term: 2024–2025
 location: Institute for Convergence Education, Sogang University, Seoul
-time: ""
 course_id: intro-to-ai-programming
-schedule:
-  - week: 1
-    date: ""
-    topic: Python Fundamentals
-    description: Core Python syntax, data types, and control flow.
-  - week: 2
-    date: ""
-    topic: Problem Solving
-    description: Functions, data structures, and debugging practice.
 ---
 
 ## Role
