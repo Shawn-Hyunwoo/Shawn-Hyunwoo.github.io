@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-At **Quantum Korea 2026** (Seoul) I ran Norma's booth and presented our quantum computing solutions to attendees, and presented **Pado-Pauli**, our GPU-accelerated Pauli Propagation toolkit, as a poster. :microscope:
+At **Quantum Korea 2026** (Seoul) I ran Norma's booth and presented our quantum computing solutions to attendees, and presented **SAFE ma-QAOA** as a poster at the co-located **Conference on Quantum Information (CQI 2026)**. :microscope:

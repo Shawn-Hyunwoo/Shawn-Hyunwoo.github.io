@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Giving an **invited talk** on **SAFE ma-QAOA** at the Waterloo Quantum Club (WQC), University of Waterloo (online). :speaking_head:
+Gave an **invited talk** on **SAFE ma-QAOA** at the Waterloo Quantum Club (WQC), University of Waterloo (online). :speaking_head:

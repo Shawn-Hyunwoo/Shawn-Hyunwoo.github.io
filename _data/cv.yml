@@ -1,14 +1,15 @@
 cv:
   name: Hyunwoo Shawn Kim
-  label: Quantum Algorithm Researcher
+  label: Research Scientist, Quantum AI Team, Norma
   email: kimhw7537@gmail.com
   location: Seoul, South Korea
   image: ""
   summary: >
-    Quantum algorithm researcher on the Quantum AI Team at Norma, working on practical and experimentally
-    realizable quantum algorithms for the NISQ era. Interested in hardware-efficient quantum machine learning,
-    Pauli-propagation methods, noise-resilient variational quantum circuits (VQCs), and quantum generative
-    models for drug discovery. B.S. in Physics & Artificial Intelligence from Sogang University.
+    Research scientist on the Quantum AI Team at Norma, working on practical quantum algorithms for the NISQ era.
+    Interested in classical simulation of quantum circuits and the quantum–classical boundary (Pauli propagation,
+    classical surrogates), quantum machine learning and quantum generative models, HPC–QPU hybrid workflows, and
+    hardware-aware NISQ algorithms and quantum error mitigation. B.S. in Physics & Artificial Intelligence from
+    Sogang University.
 
   social_networks:
     - network: GitHub
@@ -35,25 +36,18 @@ cv:
 
     Experience:
       - company: Norma, Inc.
-        position: Researcher, Quantum AI Team
+        position: Research Scientist, Quantum AI Team
         location: Seoul, South Korea
         start_date: 2025-07
         end_date: present
         highlights:
-          - "Co-developed Norma's in-house Pauli Propagation toolkit (\"Pado-Pauli\") for quantum algorithm simulation, a GPU-accelerated, differentiable surrogate publicly released on GitHub; the GPU path runs ~35-49x faster than the CPU path (coefficient-truncation error <1e-4), with native batched processing for quantum-native ML and head-to-head benchmarks against existing Pauli-propagation implementations reported in a paper in preparation."
-          - "Built quantum generative models (Quantum GAN, IQP-QCBM) in PyTorch and NVIDIA CUDA-Q for drug discovery; studied the expressivity and trainability of variational quantum circuits."
-          - "Designed a neural-network-based quantum error mitigation (QEM) model that predicts and counteracts real-hardware error characteristics, substantially reducing the total variation distance (TVD) between noisy and ideal output distributions."
-          - "Analyzed the noise resilience of VQCs (VQE, QAOA) under both simulation and real-hardware environments."
-
-      - company: National Information Society Agency (NIA) — KQIC Quantum Internship (4th Cohort)
-        position: Quantum Computing & AI Research Intern (placed at Norma, Inc.)
-        location: Seoul, South Korea
-        start_date: 2025-07
-        end_date: 2025-10
-        highlights:
-          - "Selected for a competitive, nationally administered quantum computing & AI internship; completed a 4-month research project at Norma evaluated by an industry and government panel."
-          - "Initiated the drug-discovery project: processed 1.4M augmented SMILES representations of KRAS G12D inhibitor candidates and built data pipelines feeding downstream quantum generative model training."
-          - "Performance led directly to conversion to a full-time research position at Norma."
+          - "Co-developed PADO-Pauli (arXiv:2610.17755), an open-source, differentiable Pauli-propagation engine in PyTorch: a circuit is compiled once into sparse tensor maps, then evaluated and back-propagated in batch on CUDA and ROCm GPUs. Zero filtering removes propagated Pauli terms that cannot contribute to the result (~1.5x faster batched evaluation, 1.4-3.0x lower steady-state memory)."
+          - "Against NVIDIA cuPauliProp 0.4.0 on one A100 80 GB: 2.7-10.1x faster evaluation, 3.3-13.3x faster forward and backward passes, 206x higher throughput on batched inputs, and 3.1x less GPU memory at 16 qubits (14.5 vs. 45.4 GB), completing a setting in which cuPauliProp ran out of device memory."
+          - "Reproduced IBM's 127-qubit kicked-Ising utility experiment on one AMD MI300X with under 0.7 GB of GPU memory (RMS deviation 0.032 from the hardware data); extended the engine with a hybrid CPU-storage / GPU-compute mode, prototyped multi-GPU execution on an 8-GPU NVIDIA Blackwell node, and ported Pauli-propagation simulation to the Tenstorrent Blackhole p150a NPU."
+          - "Co-first author of SAFE ma-QAOA (IEEE QCE 2026): Pauli-propagation pre-training, parameter distillation and exact fine-tuning achieved better solution quality than standard training while reducing estimated QPU workload by ~95% on average."
+          - "Co-developed mixed IQP-QCBMs, ancilla-augmented mixtures of IQP circuits for generative modeling, benchmarked from 16 to 784 qubits."
+          - "Sole developer of a latent-space quantum GAN for KRAS G12D inhibitor discovery (National Research Foundation of Korea), trained on a Transformer latent space built from 1.4M augmented SMILES."
+          - "Built a neural-network quantum error mitigation (QEM) model that reduced the total variation distance (TVD) to ideal outputs; studied VQE and QAOA noise on IBM, IonQ, and Quantinuum hardware."
 
       - company: Sogang University, Department of Physics
         position: Research Assistant (Supervisor — Prof. Minsoo Kim)
@@ -75,14 +69,23 @@ cv:
           - "Performed SPDC (Spontaneous Parametric Down-Conversion) experiments for photon-pair generation, and supported time-energy entanglement experiments."
 
     Publications:
+      - title: "PADO-Pauli: A GPU-Accelerated Implementation of Pauli Propagation"
+        authors:
+          - Hyunwoo Kim
+          - Youngseok Lee
+        publisher: "Preprint (arXiv:2610.17755)"
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2610.17755
+        summary: GPU-accelerated, differentiable Pauli-propagation engine (code at github.com/Norma-Q/PADO-Pauli). A two-page version appears in the IEEE QCE 2026 Poster Track (to appear in the proceedings); presented as posters at IEEE QCE 2026 (Toronto) and the ML4QT Symposium 2026 (Waterloo).
+
       - title: "SAFE ma-QAOA: Surrogate-Assisted and Fine-Tuning Enhanced Multi-Angle QAOA with Parameter Distillation"
         authors:
           - Hyunwoo Kim
           - Youngseok Lee
-        publisher: "Preprint (arXiv:2605.23377)"
+        publisher: "Proceedings of the IEEE International Conference on Quantum Computing and Engineering (QCE) 2026, to appear (arXiv:2605.23377)"
         releaseDate: 2026
         url: https://arxiv.org/abs/2605.23377
-        summary: Accepted to the Technical Papers Track (Quantum Algorithms) at the IEEE International Conference on Quantum Computing and Engineering (QCE / Quantum Week) 2026, Toronto.
+        summary: Oral presentation in the Technical Papers Track (Quantum Algorithms) at IEEE Quantum Week (QCE 2026), Toronto, Sep 2026.
 
       - title: "Trainability and Mode Separation of Mixed IQP-QCBMs"
         authors:
@@ -91,19 +94,25 @@ cv:
         publisher: "Preprint (arXiv:2607.27883)"
         releaseDate: 2026
         url: https://arxiv.org/abs/2607.27883
-        summary: Accepted to the Technical Papers track at the ML4QT Symposium (Machine Learning to Advance Quantum Technologies) 2026, Waterloo. Ancilla-augmented, trainable mixtures of Instantaneous Quantum Polynomial-time (IQP) circuits for quantum generative modeling, benchmarked from 16 to 784 qubits against classical baselines.
+        summary: Oral presentation at the ML4QT Symposium (Machine Learning to Advance Quantum Technologies) 2026, Waterloo, Sep 2026; accepted as a poster at QTML 2026, Stellenbosch, Dec 2026. Ancilla-augmented, trainable mixtures of Instantaneous Quantum Polynomial-time (IQP) circuits for quantum generative modeling, benchmarked from 16 to 784 qubits against classical baselines.
 
     # The web CV renders only section titles it knows (Education, Experience, Publications, Projects, ...).
     # Custom sections like the ones below must use `bullet:` entries, otherwise they render empty.
     Presentations:
-      - bullet: "**Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation** (poster), ML4QT Symposium (Machine Learning to Advance Quantum Technologies) 2026, Waterloo, Sep 2026"
-      - bullet: "**Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation** (poster), IEEE International Conference on Quantum Computing and Engineering (QCE) 2026, Poster Track, Toronto, Sep 2026"
-      - bullet: "**Pado-Pauli: A GPU-Accelerated Implementation of Pauli Propagation** (poster), Conference on Quantum Information, Quantum Korea 2026, Seoul, Jul 2026"
+      - bullet: "**PADO-Pauli: A GPU-Accelerated Implementation of Pauli Propagation** (poster), ML4QT Symposium (Machine Learning to Advance Quantum Technologies) 2026, Waterloo, Sep 2026"
+      - bullet: "**SAFE ma-QAOA: Surrogate-Assisted and Fine-Tuning Enhanced Multi-Angle QAOA with Parameter Distillation** (oral), IEEE Quantum Week (QCE 2026), Technical Papers Track (Quantum Algorithms), Toronto, Sep 2026"
+      - bullet: "**PADO-Pauli: A GPU-Accelerated Implementation of Pauli Propagation** (poster), IEEE International Conference on Quantum Computing and Engineering (QCE) 2026, Poster Track, Toronto, Sep 2026"
+      - bullet: "**SAFE ma-QAOA: Multi-Angle QAOA with Parameter Distillation** (poster), Conference on Quantum Information (CQI 2026), held with Quantum Korea 2026, Seoul, Jul 2026"
       - bullet: "**SAFE ma-QAOA: Multi-Angle QAOA with Parameter Distillation** (invited talk), Waterloo Quantum Club (WQC), University of Waterloo (online), Jul 2026"
       - bullet: "**SAFE ma-QAOA: Multi-Angle QAOA with Parameter Distillation** (poster), Quantum Future Korea 2026 (2nd National Undergraduate Quantum Conference), Seoul, May 2026"
       - bullet: "**Two Approaches of Potential Quantum Advantage with Quantum Generative Models in Drug Discovery** (poster), 1st National Undergraduate Quantum Conference & Annual Meeting of the Quantum Information Society of Korea, Seoul, Feb 2026"
 
     Selected Projects:
+      - bullet: |-
+          **Quantum Reframing Challenge 2026 — Finalist** (2026). Team of three, chemistry and materials track.
+
+          - Built a pipeline of Pauli-propagation surrogate pre-training, QPU sampling, and sample-based quantum diagonalization (SQD) for Fe–N₂ catalysis (Haber–Bosch N₂ activation) models at 12-20 qubits, including a run on IonQ Forte-1 hardware.
+
       - bullet: |-
           **Quantum Generative Models for Drug Discovery** (Jul 2025 – present). Norma, Inc. — part of the NRF Korea Quantum Computing Challenge (2024-2026).
 
@@ -133,17 +142,12 @@ cv:
       - title: KQIC Quantum Internship Excellence Prize (2nd Place)
         date: 2025
         awarder: Korea Quantum Industry Center / National Information Society Agency (NIA)
-        summary: Awarded for the top-ranking research project among 4th-cohort interns at the final presentation, evaluated by an industry and government panel.
+        summary: Ranked 2nd among 11 interns of the 4th cohort at the final research presentation, evaluated by an industry and government panel.
 
       - title: Catholic Foundation Outstanding Student Scholarship
         date: 2025
         awarder: Catholic Scholarship Foundation
         summary: Stipend-based scholarship awarded on academic achievement and personal evaluation.
-
-      - title: Samsung DS Bootcamp Presentation Award
-        date: 2024
-        awarder: Samsung Device Solutions
-        summary: Ranked 1st in presentation quality and 2nd overall among 10 teams for a technical proposal on next-generation semiconductor applications.
 
       - title: Sogang Alumni Association Scholarship
         date: 2024
@@ -166,7 +170,11 @@ cv:
       - name: Python Stack
         keywords: "NumPy, SciPy, pandas, scikit-learn, PyTorch, matplotlib, seaborn"
       - name: Quantum SDKs
-        keywords: "Qiskit, PennyLane, NVIDIA CUDA-Q, Quantinuum Nexus"
+        keywords: "Qiskit, PennyLane, NVIDIA CUDA-Q, NVIDIA cuQuantum, pytket, Quantinuum Nexus, PauliPropagation.jl"
+      - name: Quantum Hardware
+        keywords: "IBM (Eagle, Heron, Nighthawk), IonQ (Forte), Quantinuum (H2)"
+      - name: Accelerators
+        keywords: "NVIDIA GPUs (GB300, RTX PRO 6000, A100; CUDA), AMD GPUs (MI300X, MI325X; ROCm), Tenstorrent NPU (Blackhole p150a)"
       - name: Experimental Physics
         keywords: "Interferometry, SPDC, Hall effect, optical alignment"
       - name: Tools
@@ -174,10 +182,11 @@ cv:
 
     Teaching and Outreach:
       - bullet: |-
-          **Technical Demo & Presentation**, Norma, Inc. — Conference Outreach, Tokyo, Japan / Seoul, South Korea (Jun 2026 – Jul 2026)
+          **Technical Demo & Presentation**, Norma, Inc. — Conference Outreach, Tokyo, Japan / Seoul, South Korea / Toronto, Canada (Jun 2026 – Sep 2026)
 
-          - Q2B Tokyo 2026 (Jun 4-5): operated Norma's technical demo booth and presented the Pado-Pauli use case to industry researchers and visitors.
+          - Q2B Tokyo 2026 (Jun 4-5): operated Norma's technical demo booth and presented the PADO-Pauli use case to industry researchers and visitors.
           - Quantum Korea 2026 (Jul 1-3, Seoul): ran booth operations and delivered technical presentations of Norma's quantum computing solutions to attendees.
+          - IEEE Quantum Week 2026 (Sep 13-18, Toronto): technical presenter at Norma's booth.
 
       - bullet: |-
           **Technical Mentor**, 1st Quantum AI Competition (Norma, Inc. & AI Factory), Jeonju, South Korea (Aug 2025)

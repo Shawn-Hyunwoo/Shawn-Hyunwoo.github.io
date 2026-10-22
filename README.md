@@ -2,9 +2,10 @@
 
 Source of my personal academic website: **[shawn-hyunwoo.github.io](https://shawn-hyunwoo.github.io)**
 
-I am a quantum algorithm researcher on the Quantum AI Team at [Norma](https://norma.co.kr/), working on quantum machine learning.
-My current work centers on Pauli propagation (I co-developed Norma's GPU-accelerated Pado-Pauli toolkit),
-quantum generative models for drug discovery, and noise-resilient variational quantum circuits.
+I am a research scientist on the Quantum AI Team at [Norma](https://norma.co.kr/).
+My work centers on classical simulation of quantum circuits with Pauli propagation (I co-developed Norma's GPU-accelerated
+[PADO-Pauli](https://arxiv.org/abs/2610.17755) engine), quantum machine learning and quantum generative models,
+and HPC–QPU hybrid workflows.
 
 - Email: kimhw7537@gmail.com
 - GitHub: [Shawn-Hyunwoo](https://github.com/Shawn-Hyunwoo)

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Represented **Norma** at **Q2B Tokyo 2026**, operating our technical demo booth and presenting the Pado-Pauli use case to industry researchers and visitors. :briefcase:
+Represented **Norma** at **Q2B Tokyo 2026**, operating our technical demo booth and presenting the PADO-Pauli use case to industry researchers and visitors. :briefcase:
